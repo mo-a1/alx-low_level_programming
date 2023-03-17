@@ -15,7 +15,7 @@ int main(void)
 	/* Print all two-digit combinations */
 	for (i = 0; i < 100; i++)
 	{
-		for (j = i; j < 100; j++)
+		for (j = i + 1; j < 100; j++)
 		{
 			/* Check for duplicate combinations */
 			if (i <= j)
@@ -26,7 +26,7 @@ int main(void)
 				putchar(j / 10 + '0');
 				putchar(j % 10 + '0');
 
-				if (i == 99 && j == 99)
+				if (i == 98 && j == 99)
 				{
 					/* Last combination - don't print comma */
 					putchar('\n');
