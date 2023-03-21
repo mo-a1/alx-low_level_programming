@@ -2,8 +2,8 @@
 
 /**
  * main - Finds and prints the sum of the even-valued
- * terms in the Fibonacci sequence whose values do not 
- * exceed 4,000,000
+ *terms in the Fibonacci sequence whose values do not
+ *exceed 4,000,000
  *
  * Return: Always 0
  */
