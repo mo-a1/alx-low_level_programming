@@ -8,14 +8,14 @@
 int main(void)
 {
     int i;
-    unsigned long long a = 1, b = 2, c;
+    unsigned int a = 1, b = 2, c;
 
-    printf("%llu, %llu", a, b);
+    printf("%u, %u", a, b);
 
     for (i = 3; i <= 98; i++)
     {
         c = a + b;
-        printf(", %llu", c);
+        printf(", %u", c);
         a = b;
         b = c;
     }
